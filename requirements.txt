@@ -1,0 +1,11 @@
+# Campus Customs vendor desk agent (MGT 409 HW6). Python 3.12+ (developed on 3.14).
+# Install:  pip install -r requirements.txt
+
+pydantic-ai-slim[openai]==2.56.0   # the agent framework + OpenAI-compatible client (used for gpt-6-luna via Portkey)
+pypdf==6.20.1                      # read PDF text and content streams (invisible-render-mode defense)
+pdfplumber==0.11.10                # PDF layout: color / size / position, for the sanitizer
+beautifulsoup4==4.15.0             # parse HTML quotes and emails
+python-dotenv==1.2.4               # load PORTKEY_API_KEY from .env
+tiktoken==0.14.0                   # token counting for the handbook estimate (Problem 2)
+pypdfium2==5.14.0                  # render PDFs/HTML to screenshots (human-view + red-team evidence)
+reportlab==5.0.1                   # build the red-team attack PDF (Problem 7)

@@ -1,0 +1,112 @@
+{
+  "model": "gpt-6-luna",
+  "rates_per_1m": {
+    "input_per_1m": 0.1,
+    "cached_input_per_1m": 0.01,
+    "cache_write_per_1m": 0.125,
+    "output_per_1m": 0.5
+  },
+  "counts": {
+    "o200k_base_tokens": 10058,
+    "cl100k_base_tokens": 10184,
+    "characters": 28903,
+    "bytes_utf8": 28903,
+    "words": 6127,
+    "lines": 339,
+    "chars_div_4": 7226,
+    "words_x_4_3": 8169
+  },
+  "sections": [
+    {
+      "section": "Campus Customs Shop Handbook",
+      "tokens": 24,
+      "share": 0.0024
+    },
+    {
+      "section": "1. Who we are",
+      "tokens": 192,
+      "share": 0.0191
+    },
+    {
+      "section": "2. Staff and roles",
+      "tokens": 106,
+      "share": 0.0105
+    },
+    {
+      "section": "3. Store hours",
+      "tokens": 63,
+      "share": 0.0063
+    },
+    {
+      "section": "4. Purchasing rules (the vendor desk follows these exactly)",
+      "tokens": 269,
+      "share": 0.0267
+    },
+    {
+      "section": "5. Approved vendors",
+      "tokens": 417,
+      "share": 0.0415
+    },
+    {
+      "section": "6. Removed and pending vendors (never recommend)",
+      "tokens": 117,
+      "share": 0.0116
+    },
+    {
+      "section": "7. Returns and exchanges",
+      "tokens": 95,
+      "share": 0.0094
+    },
+    {
+      "section": "8. Discounts",
+      "tokens": 94,
+      "share": 0.0093
+    },
+    {
+      "section": "9. Product catalogue",
+      "tokens": 6920,
+      "share": 0.688
+    },
+    {
+      "section": "10. Recent purchase orders (last 12 months)",
+      "tokens": 1462,
+      "share": 0.1454
+    },
+    {
+      "section": "11. Brand and quality checklist",
+      "tokens": 105,
+      "share": 0.0104
+    },
+    {
+      "section": "12. Big-weekend planning",
+      "tokens": 123,
+      "share": 0.0122
+    },
+    {
+      "section": "13. How the vendor desk agent should report",
+      "tokens": 71,
+      "share": 0.0071
+    }
+  ],
+  "costs": {
+    "no_cache": {
+      "one_call": 0.0010058,
+      "1k_calls": 1.0058
+    },
+    "cached_simple": {
+      "first_call_cache_write": 0.00125725,
+      "later_call_cache_read": 0.00010058,
+      "1k_calls": 0.10173667
+    },
+    "cached_128_blocks": {
+      "cacheable_tokens": 9984,
+      "leftover_tokens_full_price": 74,
+      "first_call_cache_write": 0.0012554,
+      "later_call_cache_read": 0.00010724000000000001,
+      "1k_calls": 0.10838816000000001
+    },
+    "savings_1k_calls": 0.90406333,
+    "savings_pct": 0.89885,
+    "break_even_calls": 2
+  }
+}

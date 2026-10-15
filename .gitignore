@@ -1,0 +1,13 @@
+# Secrets: the real Portkey key lives in .env and must never be committed.
+.env
+.env.*
+!.env.example
+
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# The original course zip (the unpacked files live in data/)
+data.zip
